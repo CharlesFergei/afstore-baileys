@@ -1,0 +1,8 @@
+node_modules/
+test_temp_session/
+test_suite.mjs
+test_cjs.cjs
+test_new_patches.mjs
+.DS_Store
+Thumbs.db
+*.log
