@@ -1,7 +1,7 @@
 # afstore-baileys
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-20--24-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/WhatsApp-Multi--Device-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   <img src="https://img.shields.io/badge/AF%20STORE-Official%20Module-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" />
@@ -28,6 +28,10 @@ Custom WhatsApp WebSocket API Engine developed and maintained by **Farel (AF STO
 
 5. **Console Noise Suppression:**
    - Intelligently silences routine decryption noise (Bad MAC, session counter mismatches) preventing console spam and keeping strict mobile 42-column terminals pristine.
+
+6. **Universal Node.js 20 - 24 Compatibility:**
+   - Fully optimized and tested for Node.js 20, 21, 22, 23, and 24.
+   - Native dual compatibility for `Uint8Array` & `Buffer`, universal WebCrypto fallback, and strict ESM/CJS exports mapping.
 
 ---
 

@@ -15,6 +15,15 @@
   "author": "Farel (AF STORE)",
   "license": "MIT",
   "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json",
+    "./*": "./*"
+  },
   "files": [
     "lib/*",
     "WAProto/*",
