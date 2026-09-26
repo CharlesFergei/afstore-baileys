@@ -1,5 +1,5 @@
 {
-  "name": "@fyxzpediaa/libsignal",
+  "name": "@afstore/libsignal",
   "version": "1.0.14",
   "description": "Open Whisper Systems' libsignal for Node.js",
   "main": "index.js",
