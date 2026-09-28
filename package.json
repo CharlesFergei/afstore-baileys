@@ -1,7 +1,6 @@
 {
   "name": "@afstore/baileys",
   "version": "1.0.0",
-  "type": "module",
   "description": "Custom WhatsApp WebSocket API Engine optimized for AF STORE Bot Ecosystem",
   "keywords": [
     "whatsapp",
@@ -14,12 +13,13 @@
   ],
   "author": "Farel (AF STORE)",
   "license": "MIT",
-  "main": "./lib/index.js",
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.js",
   "exports": {
     ".": {
+      "require": "./lib/index.cjs",
       "import": "./lib/index.js",
-      "require": "./lib/index.js",
-      "default": "./lib/index.js"
+      "default": "./lib/index.cjs"
     },
     "./package.json": "./package.json",
     "./*": "./*"
