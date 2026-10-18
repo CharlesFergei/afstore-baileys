@@ -104,3 +104,8 @@ startBot();
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## Local reliability patch 1.0.1 (18 October 2026)
+
+Fix session fetching for phone-number recipients without a LID mapping; validate actual sessions instead of trusting stale cache entries; honor forced refresh and bound pre-key queries to 100 devices. Persist learned mappings before use. Keep the offline queue progressing after failed nodes and flush buffered events on errors. Surface decryption warnings. The CommonJS entry includes an MIT-licensed p-queue bundle compatible with Node 20 imports. No WhatsApp session files are changed.

@@ -1,6 +1,6 @@
 {
   "name": "@afstore/baileys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom WhatsApp WebSocket API Engine optimized for AF STORE Bot Ecosystem",
   "keywords": [
     "whatsapp",
