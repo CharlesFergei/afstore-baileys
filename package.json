@@ -11,8 +11,9 @@
     "afstore",
     "wabot"
   ],
-  "author": "Farel (AF STORE)",
+  "author": "AF STORE",
   "license": "MIT",
+  "type": "module",
   "main": "./lib/index.cjs",
   "module": "./lib/index.js",
   "exports": {
